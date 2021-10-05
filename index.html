@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/jpg" href="images/piefavicon.png"/>
+<title>Harners Bakery & Cafe</title>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="contact.html" >Contact Us</a>
+  <a href="specials.html">Specials</a>
+  <a href="cafe.html">Cafe</a>
+  <a href="bakery.html">Bakery</a>
+  <a href="index.html" class="active">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+  </div>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Yeah it works</h2>
+  <p>Here is where i type something</p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
